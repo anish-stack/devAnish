@@ -1,11 +1,11 @@
-.portfolio {
+/* .portfolio {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 70vh;
 
-}
+} */
 /* heading */
 .portfolio span:nth-of-type(1) {
   color: var(--black);
@@ -20,7 +20,7 @@
 }
 
 /* slider */
-.portfolio .swiper{
+/* .portfolio .swiper{
     overflow: visible!important;
 }
 
@@ -41,5 +41,68 @@
   width: 19rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
+} */
+
+/* Portfolio.css */
+.portfolio {
+  /* Your existing styles for the 'portfolio' container */
+  /* background-color: var(--black); */
+  color: var(--yellow);
+  /* Add other styles as needed */
 }
 
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Add other styles as needed */
+}
+
+.portfolio-card {
+  /* background-color: var(--blueCard); */
+  color: var(--black);
+  height: 550px;
+  border-radius: 10px;
+  box-shadow: var(--boxShadow);
+  margin: 1rem;
+  width: calc(23.33% - 1rem);
+  /* Add other styles as needed */
+}
+
+.portfolio-image img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+  /* Add other styles as needed */
+}
+
+.portfolio-details {
+  height:300px;
+  padding: 1rem;
+  /* Add other styles as needed */
+}
+.portfolio-details p{
+  
+  font-size: 0.8rem;
+}
+/* Add these styles to your Portfolio.css */
+.portfolio-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--orange);
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-link:hover {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+
+/* Other CSS styles for your headings, links, etc. */
+
+/* You can use the specified color variables throughout your CSS for consistent styling. */
